@@ -26,7 +26,7 @@ else:
     print(num, "is not a prime number.")
 
 """
-1)This line imports the math module, which provides mathematical functions, including the square root function (math.sqrt).
+1)imports the math module, which provides mathematical functions, including the square root function (math.sqrt).
 2)def isprime(n, i):
     if n == 0 or n == 1:
         return False
