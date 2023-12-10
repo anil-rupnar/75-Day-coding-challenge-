@@ -1,10 +1,10 @@
 75 days Hard coding challenge.
-hashtag#Day5
+#Day5
 
 Problem statement :
-write a program to find all possible prime numbers within the range.
- Input: two +ve integers separated by space denting start and end of range.
- Output: list of all possible prime numbers within the range separated by range.
+    find the gretest of 3 numbers(3 numbers are not equal)
+    Input : three integers separated by space denting to be compared to find greatest number.
+    Output : Greatest number out of the three given numbers.
 
 
 Difficulty level :
@@ -17,10 +17,10 @@ software:
 Vscode
 
 Code & code explanation:
-https://lnkd.in/gaei4kkf
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day7.py
 
 Ready to embrace the coding journey together! 🚀
 What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
-hashtag#CodingChallenge 
-hashtag#CodeOptimization 
-hashtag#DailyCoding 
+#CodingChallenge 
+#CodeOptimization 
+#DailyCoding 
