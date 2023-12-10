@@ -1,0 +1,26 @@
+75 days Hard coding challenge.
+hashtag#Day5
+
+Problem statement :
+write a program to find all possible prime numbers within the range.
+ Input: two +ve integers separated by space denting start and end of range.
+ Output: list of all possible prime numbers within the range separated by range.
+
+
+Difficulty level :
+Medium
+
+language:
+Python
+
+software:
+Vscode
+
+Code & code explanation:
+https://lnkd.in/gaei4kkf
+
+Ready to embrace the coding journey together! 🚀
+What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
+hashtag#CodingChallenge 
+hashtag#CodeOptimization 
+hashtag#DailyCoding 
