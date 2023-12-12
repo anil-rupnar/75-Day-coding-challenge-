@@ -6,9 +6,5 @@ Problem statement :
         
 """
 print("Enter the four Numbers")
-a = int(input("Enter The First Number"))
-b = int(input("Enter The secand NUmber:"))
-c = int(input("Enter The third NUmber:"))
-d = int(input("Enter The Fourth NUmber:"))
-
-print("smallest Number",min(a,b,c,d))
+a, b, c, d = map(int, input("Enter the numbers separated by space: ").split())
+print("Smallest number:", min(a, b, c, d))
