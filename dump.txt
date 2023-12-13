@@ -1,14 +1,13 @@
 75 days Hard coding challenge.
-#Day5
+#Day8
 
 Problem statement :
-    find the gretest of 3 numbers(3 numbers are not equal)
-    Input : three integers separated by space denting to be compared to find greatest number.
-    Output : Greatest number out of the three given numbers.
-
+    find out smallest of 4 numbers(numbers are not equal)
+    Input: Four integers separated by space denoting the numbers to be compared to find the smallest number.
+    Output: Smallest number out of the four given numbers.
 
 Difficulty level :
-Medium
+Esay
 
 language:
 Python
