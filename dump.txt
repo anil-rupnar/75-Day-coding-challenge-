@@ -1,13 +1,15 @@
 75 days Hard coding challenge.
-#Day8
+#Day9
 
 Problem statement :
-    find out smallest of 4 numbers(numbers are not equal)
-    Input: Four integers separated by space denoting the numbers to be compared to find the smallest number.
-    Output: Smallest number out of the four given numbers.
+    program To find Whether a number is perfect square or not.
+    Input : Any integer positive Number.
+    Output : print number is not input number is perfect square failure if the input number is not a perfect square.
+        
+
 
 Difficulty level :
-Esay
+Medium
 
 language:
 Python
@@ -16,8 +18,7 @@ software:
 Vscode
 
 Code & code explanation:
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day7.py
-
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day9.py
 Ready to embrace the coding journey together! 🚀
 What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
 #CodingChallenge 
