@@ -1,12 +1,10 @@
 75 days Hard coding challenge.
-#Day9
+#Day11
 
 Problem statement :
-    program To find Whether a number is perfect square or not.
-    Input : Any integer positive Number.
-    Output : print number is not input number is perfect square failure if the input number is not a perfect square.
-        
-
+    User Enter Date in DD-MM-YYYY find out number of days in month(Now ingnore The concept of leap year ).
+    Input : Date in DD-MM-YYYY format.
+    Output : Number of days in the Date entered by user.
 
 Difficulty level :
 Medium
