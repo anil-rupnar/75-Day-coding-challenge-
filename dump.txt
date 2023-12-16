@@ -2,10 +2,10 @@
 #Day11
 
 Problem statement :
-    User Enter Date in DD-MM-YYYY find out number of days in month(Now ingnore The concept of leap year ).
-    Input : Date in DD-MM-YYYY format.
-    Output : Number of days in the Date entered by user.
-
+    program To find Whether a number is perfect square or not.
+    Input : Any integer positive Number.
+    Output : print number is not input number is perfect square failure if the input number is not a perfect square.
+        
 Difficulty level :
 Medium
 
@@ -16,7 +16,8 @@ software:
 Vscode
 
 Code & code explanation:
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day9.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day11.py
+
 Ready to embrace the coding journey together! 🚀
 What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
 #CodingChallenge 
