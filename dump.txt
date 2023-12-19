@@ -1,5 +1,6 @@
 75 days Hard coding challenge.
-#Day11
+Excited to tackle Day 14 of the 75-day coding challenge!
+#Day14
 
 Problem statement :
     write a pyhton program to print Box number pattern of 1 and 0.
@@ -16,8 +17,10 @@ Python
 software:
 Vscode
 
-Code & code explanation:
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day12.py
+Code :
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day14.py
+
+Keep coding, stay motivated, and remember: every challenge is an opportunity to grow! 🌱💻
 
 Ready to embrace the coding journey together! 🚀
 What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
