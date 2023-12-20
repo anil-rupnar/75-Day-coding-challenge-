@@ -3,13 +3,13 @@ Excited to tackle Day 14 of the 75-day coding challenge!
 #Day14
 
 Problem statement :
-    write a pyhton program to print Box number pattern of 1 and 0.
-    Input :Given a single line separated by spcae. N1 denotes the Numbers of rows N2
-    denotes the numbers of columns.
-    Output : print the output in the format.     
+    Program to chack existence of pair with given sum in array.
+    Input :first line of input is sum,secand of input is no of elements N,third line of input is  N elements separated by a single space.
+    Output : print "array has two elements with given sum " if required pair exists and print "array doesn't have two elements with given sum " if rquired pair do not exist.
+    
 
 Difficulty level :
-Medium
+Advance
 
 language:
 Python
@@ -18,7 +18,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day14.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day15.py
 
 Keep coding, stay motivated, and remember: every challenge is an opportunity to grow! 🌱💻
 
