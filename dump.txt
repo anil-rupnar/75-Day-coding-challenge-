@@ -1,12 +1,21 @@
 75 days Hard coding challenge.
 Excited to tackle Day 14 of the 75-day coding challenge!
-#Day14
+#Day16
 
 Problem statement :
-    Program to chack existence of pair with given sum in array.
-    Input :first line of input is sum,secand of input is no of elements N,third line of input is  N elements separated by a single space.
-    Output : print "array has two elements with given sum " if required pair exists and print "array doesn't have two elements with given sum " if rquired pair do not exist.
-    
+    Program print Below pattern.
+    Input :input to get on integer N.
+    Output :
+            1
+            2*2
+            3*3*3
+            4*4*4*4
+            4*4*4*4
+            3*3*3
+            2*2
+            1
+        
+            
 
 Difficulty level :
 Advance
@@ -18,7 +27,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day15.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day16.py
 
 Keep coding, stay motivated, and remember: every challenge is an opportunity to grow! 🌱💻
 
