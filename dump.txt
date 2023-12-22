@@ -1,20 +1,10 @@
 75 days Hard coding challenge.
-Excited to tackle Day 14 of the 75-day coding challenge!
-#Day16
+Excited to tackle Day 17 of the 75-day coding challenge!
+#Day17
 
-Problem statement :
-    Program print Below pattern.
-    Input :input to get on integer N.
-    Output :
-            1
-            2*2
-            3*3*3
-            4*4*4*4
-            4*4*4*4
-            3*3*3
-            2*2
-            1
-        
+Problem statement: Check whether a number is a plus perfect number.
+Input: An integer N.
+Output: True if N is a plus perfect number, False otherwise.
             
 
 Difficulty level :
@@ -27,7 +17,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day16.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day17.py
 
 Keep coding, stay motivated, and remember: every challenge is an opportunity to grow! 🌱💻
 
