@@ -1,33 +1,6 @@
 75 days Hard coding challenge.
-Excited to tackle Day 19 of the 75-day coding challenge!
-#Day19
-
-Problem statement: 
-    write a program to convert Decimal to binary.
-    
-example:
-    input:7
-    output:111
-    
-    input:10
-    output:1o1o
-    
-Algorithm Steps:
-
-Input:
-    Accept a decimal number as input.
-Initialize Variables:
-    Set a variable to store the binary representation.
-Conversion Process:
-    Divide the decimal number by 2 and note the remainder.
-    Update the decimal number with the quotient obtained from the division.
-    Append the remainder to the binary representation.
-Repeat:
-    Repeat steps 3 until the decimal number becomes 0.
-Reverse:
-    The binary representation obtained in step 3 will be in reverse order. Reverse it to get the correct binary representation.
-Output:
-    Display the binary representation as the output.
+Excited to tackle Day 20 of the 75-day coding challenge!
+#Day20
 
 
 Difficulty level :
