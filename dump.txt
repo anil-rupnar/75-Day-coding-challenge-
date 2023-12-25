@@ -1,10 +1,18 @@
 75 days Hard coding challenge.
 Excited to tackle Day 20 of the 75-day coding challenge!
 #Day20
-
+Problem statement: 
+    write a program to convert Binary toDecimal .
+    
+example:
+    input:111
+    output:7
+    
+    input:1010
+    output:1o
 
 Difficulty level :
-meduim
+Meduim
 
 language:
 Python
@@ -13,7 +21,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day19.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day20.py
 
 Keep coding, stay motivated, and remember: every challenge is an opportunity to grow! 🌱💻
 

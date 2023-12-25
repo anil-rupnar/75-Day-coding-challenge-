@@ -10,6 +10,25 @@ example:
     output:1o1o
     
 """
+"""
+Algorithm Steps:
+
+Input:
+    Accept a decimal number as input.
+Initialize Variables:
+    Set a variable to store the binary representation.
+Conversion Process:
+    Divide the decimal number by 2 and note the remainder.
+    Update the decimal number with the quotient obtained from the division.
+    Append the remainder to the binary representation.
+Repeat:
+    Repeat steps 3 until the decimal number becomes 0.
+Reverse:
+    The binary representation obtained in step 3 will be in reverse order. Reverse it to get the correct binary representation.
+Output:
+    Display the binary representation as the output.
+
+"""
 def decimal_to_binary(decimal_number):
     binary_representation = bin(decimal_number)[2:]
     return binary_representation
