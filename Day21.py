@@ -3,10 +3,10 @@ Problem statement:
     write a program find N th fibonacci Number the fibonacci numbers are the numbers in the following integer sequence.
 
     input:9
-    output:34
+    output:21
     
     input:12
-    output:144
+    output:89
     
 """
 def find_nth_fibonacci(n):
