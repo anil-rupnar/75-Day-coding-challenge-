@@ -1,14 +1,15 @@
-75 days Hard coding challenge.
-Excited to tackle Day 21 of the 75-day coding challenge!
-#Day21
-Problem statement: 
-    write a program find N th fibonacci Number the fibonacci numbers are the numbers in the following integer sequence.
+75 days Hard coding challenge🎯.
+Excited to tackle Day 22 of the 75-day coding challenge!
+#Day22
 
-    input:9
-    output:21
+Problem statement: 
+    write a program find LCM of two numbers.
+
+    Input:15 20
+    Output:60
     
-    input:12
-    output:89
+    Input:15 25
+    Output:75
     
 Difficulty level :
 Medium
@@ -20,7 +21,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day21.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day22.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
