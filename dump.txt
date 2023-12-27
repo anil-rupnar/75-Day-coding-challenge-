@@ -1,15 +1,17 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 22 of the 75-day coding challenge!
-#Day22
+Excited to tackle Day 23 of the 75-day coding challenge!
+#Day23
 
 Problem statement: 
-    write a program find LCM of two numbers.
-
-    Input:15 20
-    Output:60
+    write a program to find out distance between two points if coordinates of two points are given.
     
-    Input:15 25
-    Output:75
+    Input:x1,y1=(3,4)
+          x2,y2=(7,7)
+    Output:5
+    
+    Input:x1,y1=(3,4)
+          x2,y2=(4,3)
+    Output:1.41421
     
 Difficulty level :
 Medium
@@ -21,7 +23,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day22.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day23.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
