@@ -1,17 +1,14 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 23 of the 75-day coding challenge!
-#Day23
+Excited to tackle Day 24 of the 75-day coding challenge!
+#Day24
 
 Problem statement: 
-    write a program to find out distance between two points if coordinates of two points are given.
+    write a program to segregate 0's and 1's an array.
+    you are given an array of 0's and 1's in random order segregate os on left and 1's on right side of the array only once.
     
-    Input:x1,y1=(3,4)
-          x2,y2=(7,7)
-    Output:5
+    Input:[0,1,0,1,0,0,1,1,1,0]
+    Output:[0,0,0,0,0,1,1,1,1,1]
     
-    Input:x1,y1=(3,4)
-          x2,y2=(4,3)
-    Output:1.41421
     
 Difficulty level :
 Medium
@@ -23,7 +20,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day23.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day24.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
@@ -32,4 +29,4 @@ What's your coding challenge today? Share your goals in the comments below! 👇
 
 #CodingChallenge 
 #CodeOptimization 
-#DailyCoding 
+#DailyCoding
