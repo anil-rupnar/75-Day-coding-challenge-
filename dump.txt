@@ -1,14 +1,16 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 24 of the 75-day coding challenge!
-#Day24
+Excited to tackle Day 25 of the 75-day coding challenge!
+#Day25
 
 Problem statement: 
-    write a program to segregate 0's and 1's an array.
-    you are given an array of 0's and 1's in random order segregate os on left and 1's on right side of the array only once.
+    Given a positive n, print count of set bits in it.
+    Input: 6
+    Output:2
     
-    Input:[0,1,0,1,0,0,1,1,1,0]
-    Output:[0,0,0,0,0,1,1,1,1,1]
-    
+Explanation:
+    binary represntation is '110'
+    so the count of th set bit is 2.
+
     
 Difficulty level :
 Medium
@@ -20,7 +22,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day24.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day25.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
