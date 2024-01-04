@@ -1,13 +1,13 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 29 of the 75-day coding challenge!
-#Day29
+Excited to tackle Day 30 of the 75-day coding challenge!
+#Day30
 
 Problem statement: 
-Given two Postive Integer Num1 and Num2 ,the task is to find the reminder when Num1 is divided by 2.
+write a program to check whether a year is a leep year or not ?
 
 Example:
-Input: Num1=5 NUm2=3
-Output:2
+Input: 2016
+output:leap year
 
 Difficulty level :
 Medium
@@ -19,7 +19,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day29.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day30.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
