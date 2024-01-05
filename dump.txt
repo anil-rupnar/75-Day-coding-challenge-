@@ -1,9 +1,9 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 30 of the 75-day coding challenge!
-#Day30
+Excited to tackle Day 31 of the 75-day coding challenge!
+#Day31
 
 Problem statement: 
-write a program to check whether a year is a leep year or not ?
+write a program to merge two sarted arrays, the idea is to stored arrays and marge them such that the resultant arrat is aslo stored.
 
 Example:
 Input: 2016
@@ -19,7 +19,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day30.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day31.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
