@@ -26,8 +26,6 @@ arr1 = list(map(int, input("Enter the first sorted array (space-separated): ").s
 arr2 = list(map(int, input("Enter the second sorted array (space-separated): ").split()))
 
 merged_array = merge_sorted_arrays(arr1, arr2)
-
-
 print("Merged Array:", merged_array)
 
 

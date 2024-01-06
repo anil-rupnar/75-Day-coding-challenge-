@@ -3,14 +3,14 @@ Excited to tackle Day 31 of the 75-day coding challenge!
 #Day31
 
 Problem statement: 
-write a program to merge two sarted arrays, the idea is to stored arrays and marge them such that the resultant arrat is aslo stored.
+write a program to find GCD of two numbers.
 
 Example:
-Input: 2016
-output:leap year
+Input: 20 28
+output: 4
 
 Difficulty level :
-Medium
+Easy
 
 language:
 Python
@@ -19,7 +19,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day31.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day32.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
