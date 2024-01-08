@@ -1,16 +1,23 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 31 of the 75-day coding challenge!
-#Day31
+Excited to tackle Day 33 of the 75-day coding challenge!
+#Day33
 
 Problem statement: 
-write a program to find GCD of two numbers.
+Given a number N, we need to find the total number of integers with exactly 9 divisors within the given range N.
 
-Example:
-Input: 20 28
-output: 4
+Test cases:
+
+Input:
+100
+
+Output:
+236 100
+
+Divisors of 36 = 1, 2, 3, 4, 6, 9, 12, 18, 36
+Divisors of 100 = 1, 2, 4, 5, 10, 20, 25, 50, 100
 
 Difficulty level :
-Easy
+Advance
 
 language:
 Python
@@ -19,7 +26,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day32.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day35.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
