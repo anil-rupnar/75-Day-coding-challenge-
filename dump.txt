@@ -1,20 +1,24 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 33 of the 75-day coding challenge!
-#Day33
+Excited to tackle Day 36 of the 75-day coding challenge!
+#Day36
 
 Problem statement: 
-Given a number N, we need to find the total number of integers with exactly 9 divisors within the given range N.
+Given two positive integers N and X , where N is the number of total patients and X
+is the time duration (in minutes) after which a new patient arrives. aslo , docter will
+givethe last patient needs to wait.
 
 Test cases:
 
 Input:
-100
+the input denote the total number of patients N and the time interval x (in minutes)in which
+the next patients are visiting.
 
 Output:
-236 100
+the waiting time of last patient.
 
-Divisors of 36 = 1, 2, 3, 4, 6, 9, 12, 18, 36
-Divisors of 100 = 1, 2, 4, 5, 10, 20, 25, 50, 100
+input: 4 5
+output: 15
+
 
 Difficulty level :
 Advance
@@ -26,7 +30,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day35.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day36.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
