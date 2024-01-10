@@ -1,24 +1,10 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 36 of the 75-day coding challenge!
-#Day36
+Excited to tackle Day 37 of the 75-day coding challenge!
+#Day37
 
 Problem statement: 
-Given two positive integers N and X , where N is the number of total patients and X
-is the time duration (in minutes) after which a new patient arrives. aslo , docter will
-givethe last patient needs to wait.
-
-Test cases:
-
-Input:
-the input denote the total number of patients N and the time interval x (in minutes)in which
-the next patients are visiting.
-
-Output:
-the waiting time of last patient.
-
-input: 4 5
-output: 15
-
+write a program to reverse a string without using in built string reverse library
+function.
 
 Difficulty level :
 Advance
