@@ -1,10 +1,18 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 37 of the 75-day coding challenge!
-#Day37
+Excited to tackle Day 38 of the 75-day coding challenge!
+#Day38
 
 Problem statement: 
-write a program to reverse a string without using in built string reverse library
-function.
+MS Excel columns  have a pattern like A,B,C,......,z,AA,AB,....AZ,BA,BB,....,ZZ,
+AAA,AAB,.... etc. in other words , column 1 is named as "A", column 2 as"B", column
+27 as "AA".
+given a column number, find its corresponding Excel column name. the following are more examples.
+
+input:26
+output:Z
+
+input:51
+output:AY
 
 Difficulty level :
 Advance
@@ -16,7 +24,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day36.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day39.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
