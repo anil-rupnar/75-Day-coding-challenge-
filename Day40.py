@@ -1,7 +1,4 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 40 of the 75-day coding challenge!
-#Day40
-
+"""
 Problem statement: 
 lohia , gosu & prince are footballers. lohia and gosu are strikers while price is a goalkeeper.you as the coach held a prictice session shootouts to improve the performance of the stikers your task is to find the maximum goal scorer between the two lohia , gosu and prince energy is denoted by x,y and z respectively . for every goal scored the energy of the respective player is decreased by 1 and after every save price energy is decreased by 1. strickers will be able to sotre the goal if prince . energy is a factor of their energy otherwise not.
 the session ends when princes energy reaches 1.asume same player can try for goals repectedly and they both try to increase number of goals in totality. lohia being a junior player is always favoured for penality kick.
@@ -12,24 +9,49 @@ the first line of input cantains an integer T denoting the number of test cases.
 output :
 for each test case print the number of goals scored by lohia and gosu respectively.
 
+"""
+def find_max_goal_scorer(x, y, z):
+    goals_lohia = 0
+    goals_gosu = 0
 
-Difficulty level :
-Advance
+    while z > 1:
+        if x >= y:
+            goals_lohia += 1
+            x -= 1
+        else:
+            goals_gosu += 1
+            y -= 1
 
-language:
-Python
+        z -= 1
 
-software:
-Vscode
+    return goals_lohia, goals_gosu
 
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day40.py
+def main():
+    T = int(input("Enter the number of test cases: "))
 
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
+    for _ in range(T):
+        x, y, z = map(int, input().split())
+        goals_lohia, goals_gosu = find_max_goal_scorer(x, y, z)
+        print(goals_lohia, goals_gosu)
 
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
+if __name__ == "__main__":
+    main()
 
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+
+"""
+Output:
+
+(base) E:\75 hard coding challenge>python ./Day40.py
+Enter the number of test cases: 1
+3 4 5
+2 2
+
+(base) E:\75 hard coding challenge>python ./Day40.py
+Enter the number of test cases: 1
+4 4 4
+2 1
+
+(base) E:\75 hard coding challenge>
+
+"""
+
