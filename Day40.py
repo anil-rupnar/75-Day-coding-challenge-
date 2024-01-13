@@ -1,14 +1,14 @@
 """
 Problem statement: 
-lohia , gosu & prince are footballers. lohia and gosu are strikers while price is a goalkeeper.you as the coach held a prictice session shootouts to improve the performance of the stikers your task is to find the maximum goal scorer between the two lohia , gosu and prince energy is denoted by x,y and z respectively . for every goal scored the energy of the respective player is decreased by 1 and after every save price energy is decreased by 1. strickers will be able to sotre the goal if prince . energy is a factor of their energy otherwise not.
-the session ends when princes energy reaches 1.asume same player can try for goals repectedly and they both try to increase number of goals in totality. lohia being a junior player is always favoured for penality kick.
 
-input :
-the first line of input cantains an integer T denoting the number of test cases. each test case contains energy 3 integers x , y  & z denoting the energies respectively.
+Lohia, gosu, and Prince are footballers. Lohia and Gosu are strikers while Price is a goalkeeper. You as the coach held a practice session shootouts to improve the performance of the stickers your task is to find the maximum goal scorer between the two Lohia, gosu, and prince energy denoted by x,y, and z respectively. for every goal scored the energy of the respective player is decreased by 1 and after every save price energy is decreased by 1. Stickers will be able to store the goal of the prince. energy is a factor of their energy otherwise not.
+the session ends when the prince's energy reaches 1. Assuming the same player can try for goals repeatedly and they both try to increase the number of goals in totality. lohia being a junior player is always favored for penalty kicks.
 
-output :
-for each test case print the number of goals scored by lohia and gosu respectively.
+Input :
+the first line of input contains an integer T denoting the number of test cases. each test case contains energy 3 integers x, y & z denoting the energies respectively.
 
+Output :
+for each test case print the number of goals scored by Lohia and Gosu respectively.
 """
 def find_max_goal_scorer(x, y, z):
     goals_lohia = 0
@@ -41,17 +41,15 @@ if __name__ == "__main__":
 """
 Output:
 
-(base) E:\75 hard coding challenge>python ./Day40.py
-Enter the number of test cases: 1
-3 4 5
-2 2
+(base) E:\75 hard coding challenge>python ./Day39.py
+Enter the column title: AA
+The corresponding column number for AA is 27.
 
-(base) E:\75 hard coding challenge>python ./Day40.py
-Enter the number of test cases: 1
-4 4 4
-2 1
+(base) E:\75 hard coding challenge>python ./Day39.py
+Enter the column title: A
+The corresponding column number for A is 1.
 
-(base) E:\75 hard coding challenge>
+(base) E:\75 hard coding challenge> 
 
 """
 
