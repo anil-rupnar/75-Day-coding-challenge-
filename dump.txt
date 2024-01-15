@@ -1,16 +1,24 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 40 of the 75-day coding challenge!
-#Day40
+Excited to tackle Day 41 of the 75-day coding challenge!
+#Day41
 
 Problem statement: 
-lohia , gosu & prince are footballers. lohia and gosu are strikers while price is a goalkeeper.you as the coach held a prictice session shootouts to improve the performance of the stikers your task is to find the maximum goal scorer between the two lohia , gosu and prince energy is denoted by x,y and z respectively . for every goal scored the energy of the respective player is decreased by 1 and after every save price energy is decreased by 1. strickers will be able to sotre the goal if prince . energy is a factor of their energy otherwise not.
-the session ends when princes energy reaches 1.asume same player can try for goals repectedly and they both try to increase number of goals in totality. lohia being a junior player is always favoured for penality kick.
+You are traveller , lost in a jungle. but you have the map with you. and you remember the rote you travelled so you will backtrack and reacch the starting point. your task is to print the staring point.
 
+Input :
+find line consists of t test cases each test case consists of 3 lines. first line of each test case consist of two integer x, y denoting of your current location . secand line of each test case consist of an integer n denoting of number of paths you travelled. third line of each test case consist of 2 * N spaced integers xi, yj denoting the points at the paths you travelled.
+
+Output :
+print the starting point in respective line.
+
+test case:
 input :
-the first line of input cantains an integer T denoting the number of test cases. each test case contains energy 3 integers x , y  & z denoting the energies respectively.
+1 1
+2
+1 0 0 1
 
-output :
-for each test case print the number of goals scored by lohia and gosu respectively.
+output:
+0 0
 
 
 Difficulty level :
@@ -23,7 +31,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day40.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day41.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 

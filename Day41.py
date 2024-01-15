@@ -24,9 +24,3 @@ s = input("Enter the string: ")
 
 count_words(s)
 
-"""
-Output :
-
-
-
-"""
