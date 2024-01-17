@@ -1,19 +1,14 @@
 """
 Problem statement: 
-Given an array of integers , the task is to find whether it's possiblr to construct an integer using all the digits of these numbers such that it would be divisible by 3.if it is possible then print "1" and If not print "0".
+Given an array of integers, the task is to find whether it's possible to construct an integer using all the digits of these numbers such that it would be divisible by 3. If it is possible then print "1" and If not print "0".
 
-test case:
+Input :arr[]={40,50,90}
 
-Input :
-arr[]={40,50,90}
+Output : 1
 
-Output:
-1
+input :arr[]={1,4}
 
-input :
-arr[]={1,4}
-
-Output:0
+Output : 0
 
 """
 def is_divisible_by_3(arr):

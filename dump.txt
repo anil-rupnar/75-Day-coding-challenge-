@@ -1,28 +1,23 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 41 of the 75-day coding challenge!
-#Day41
+Excited to tackle Day 43 of the 75-day coding challenge!
+#Day43
 
 Problem statement: 
-You are traveller , lost in a jungle. but you have the map with you. and you remember the rote you travelled so you will backtrack and reacch the starting point. your task is to print the staring point.
+Given a series 2, 10, 30, 68, 130 … Identify the pattern in the series and find the nth value in the series. Indices are starting from 1 . 1 <= n <= 200
 
-Input :
-find line consists of t test cases each test case consists of 3 lines. first line of each test case consist of two integer x, y denoting of your current location . secand line of each test case consist of an integer n denoting of number of paths you travelled. third line of each test case consist of 2 * N spaced integers xi, yj denoting the points at the paths you travelled.
+Examples: 
 
-Output :
-print the starting point in respective line.
+Input : n = 12
+Output : 1740
 
-test case:
-input :
-1 1
-2
-1 0 0 1
+Input : n = 200
+Output : 8000200
 
-output:
-0 0
+
 
 
 Difficulty level :
-Advance
+Easy
 
 language:
 Python
@@ -31,7 +26,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day41.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day44.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
