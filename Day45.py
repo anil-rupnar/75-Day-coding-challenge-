@@ -1,8 +1,4 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 45 of the 75-day coding challenge!
-#Day45
-
-Problem statement: 
+"""
 There are n students in a class, each in possession of a different funny story. As the students were getting bored in the class, they decided to come up with a game so that they can pass their time. They want to share the funny stories with each other by sending electronic messages. Assume that a sender includes all the funny stories he or she knows at the time the message is sent and that a message may only have one addressee. What is the minimum number of messages they need to send to guarantee that everyone of them gets all the funny stories?
 
 Examples: 
@@ -13,25 +9,7 @@ Output : print the minimum number of messages they need to send to guarantee. th
 Input : 15
 Output : 28
 
-
-
-Difficulty level :
-Medium
-
-language:
-Python
-
-software:
-Vscode
-
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day45.py
-
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
-
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
-
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+"""
+n = int(input("Enter the number of students: "))
+result = 2 * n - 2
+print(result)
