@@ -13,3 +13,15 @@ Output : 28
 n = int(input("Enter the number of students: "))
 result = 2 * n - 2
 print(result)
+
+"""
+output :
+(base) E:\75 hard coding challenge>python ./Day45.py
+Enter the number of students: 5
+8
+
+(base) E:\75 hard coding challenge>python ./Day45.py
+Enter the number of students: 15
+28
+
+"""
