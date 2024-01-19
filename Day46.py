@@ -1,15 +1,19 @@
 """
 Problem Statement :
-User enters Date in DD-MM-YYYY find out number of Days in month ( for now ignore the concept of leap year.)
+The user enters the Date in DD-MM-YYYY to find out the number of Days in a month ( for now ignore the concept of leap year.)
 
 Examples: 
-Input : Date in DD-MM-YYYY format.
-Output : Number of days in the Date entered by user.
+Input: Date in DD-MM-YYYY format.
 
-Input : 12-03-2006
-Output : 31
-input : 31-11-1996
-output : 30
+Output: Number of days in the Date entered by the user.
+
+Input: 12-03-2006
+
+Output: 31
+
+input: 31-11-1996
+
+output: 30
 
 """
 def days(date_str):
@@ -30,3 +34,16 @@ date_input = input("Enter date in DD-MM-YYYY format: ")
 result = days(date_input)
 
 print(f"Number of days in the entered month: {result}")
+
+
+"""
+Output :
+(base) E:\75 hard coding challenge>python ./Day46.py
+Enter date in DD-MM-YYYY format: 17-03-2003
+Number of days in the entered month: 31
+
+(base) E:\75 hard coding challenge>python ./Day46.py
+Enter date in DD-MM-YYYY format: 19-04-2004
+Number of days in the entered month: 30
+
+"""
