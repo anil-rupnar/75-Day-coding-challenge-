@@ -2,21 +2,31 @@
 Excited to tackle Day 46 of the 75-day coding challenge!
 #Day46
 
-Problem Statement :
-User enters Date in DD-MM-YYYY find out number of Days in month ( for now ignore the concept of leap year.)
+Given an integer x, return true if x is a palindrome,and false otherwise.
 
-Examples: 
-Input : Date in DD-MM-YYYY format.
-Output : Number of days in the Date entered by user.
+Example 1:
 
-Input : 12-03-2006
-Output : 31
-input : 31-11-1996
-output : 30
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+Example 2:
 
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+Example 3:
 
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+ 
+
+Constraints:
+
+-231 <= x <= 231 - 1
+ 
 Difficulty level :
-Medium
+Easy
 
 language:
 Python
@@ -25,7 +35,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day46.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day47.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
