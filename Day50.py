@@ -1,7 +1,7 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 50 of the 75-day coding challenge!
+"""
+1. Two Sum
 
-#Day50
+Problem statement:
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -34,23 +34,27 @@ Constraints:
 Only one valid answer exists.
  
 
-Difficulty level :
-Easy
+Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-language:
-Python
+"""
+class Solution(object):
+    def twoSum(self, nums, target):
+        num_indices = {}
+        for i, num in enumerate(nums):
 
-software:
-Vscode
+            complement = target - num
 
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day50.py
+            if complement in num_indices:
 
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
+                return [num_indices[complement], i]
 
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
+            num_indices[num] = i
 
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+ 
+        return None
+
+solution = Solution()
+nums1 = [2, 7, 11, 15]
+target1 = 9
+result1 = solution.twoSum(nums1, target1)
+print(result1) 
