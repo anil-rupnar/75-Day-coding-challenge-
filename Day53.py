@@ -1,8 +1,4 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 53 of the 75-day coding challenge!
-
-#Day53
-
+"""
 Problem statement : Minimum Number of Refueling Stops
 
 A car travels from a starting position to a destination which is target miles east of the starting position.
@@ -45,26 +41,34 @@ Constraints:
 1 <= positioni < positioni+1 < target
 1 <= fueli < 109
 
+"""
 
+import heapq
 
+class Solution(object):
+    def minRefuelStops(self, target, startFuel, stations):
 
-Difficulty level :
-Hard
+        # Initialize variables
+        fuel_tank = startFuel
+        stops = 0
+        max_fuel_at_station = []
 
-language:
-Python
+        # Iterate through each gas station
+        for position, fuel in stations + [(target, 0)]:
+            # While we can't reach the next station
+            while fuel_tank < position:
+                # If no station can refuel, return -1
+                if not max_fuel_at_station:
+                    return -1
+                # Refuel from the station with the maximum fuel
+                fuel_tank += -heapq.heappop(max_fuel_at_station)
+                stops += 1
+            # Add the current station's fuel to the priority queue
+            heapq.heappush(max_fuel_at_station, -fuel)
 
-software:
-Vscode
+        return stops
 
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day53.py
-
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
-
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
-
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+solution = Solution()
+print(solution.minRefuelStops(1, 1, []))  
+print(solution.minRefuelStops(100, 1, [[10, 100]]))  
+print(solution.minRefuelStops(100, 10, [[10, 60], [20, 30], [30, 30], [60, 40]]))  
