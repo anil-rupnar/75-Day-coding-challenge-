@@ -1,8 +1,4 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 54 of the 75-day coding challenge!
-
-#Day54
-
+"""
 Problem Satement : Valid Parentheses
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
@@ -33,26 +29,21 @@ Constraints:
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'.
 
+"""
 
 
+class Solution(object):
+    def isValid(self, s):
+        stack = []
+        bracket_mapping = {')': '(', '}': '{', ']': '['}
 
-Difficulty level :
-Hard
+        for char in s:
+            if char in bracket_mapping.values():
+                stack.append(char)
+            elif char in bracket_mapping.keys():
+                if not stack or stack.pop() != bracket_mapping[char]:
+                    return False
+            else:
+                return False
 
-language:
-Python
-
-software:
-Vscode
-
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day54.py
-
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
-
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
-
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+        return not stack
