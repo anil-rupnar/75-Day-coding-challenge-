@@ -1,43 +1,39 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 54 of the 75-day coding challenge!
+Excited to tackle Day 55 of the 75-day coding challenge!
 
-#Day54
+#Day55
 
-Problem Satement : Valid Parentheses
+Problem Satement : Longest Substring Without Repeating Characters
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-
-An input string is valid if:
-
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
-Every close bracket has a corresponding open bracket of the same type.
- 
+Given a string s, find the length of the longest substring without repeating characters.
 
 Example 1:
 
-Input: s = "()"
-Output: true
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
 Example 2:
 
-Input: s = "()[]{}"
-Output: true
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
 Example 3:
 
-Input: s = "(]"
-Output: false
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
  
 
 Constraints:
 
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
-
+0 <= s.length <= 5 * 104
+s consists of English letters, digits, symbols and spaces.
 
 
 
 Difficulty level :
-Hard
+Medium
 
 language:
 Python
@@ -46,7 +42,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day54.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day55.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
