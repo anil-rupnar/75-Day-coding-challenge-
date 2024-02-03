@@ -1,10 +1,5 @@
-75 days Hard coding challenge🎯.
-Excited to tackle Day 57 of the 75-day coding challenge!
-
-#Day57
-
-Problem Satement : Maximum Subarray
-
+"""
+Problem Statement : Simplify Path
 Given a string path, which is an absolute path (starting with a slash '/') to a file or directory in a Unix-style file system, convert it to the simplified canonical path.
 
 In a Unix-style file system, a period '.' refers to the current directory, a double period '..' refers to the directory up a level, and any multiple consecutive slashes (i.e. '//') are treated as a single slash '/'. For this problem, any other format of periods such as '...' are treated as file/directory names.
@@ -42,24 +37,18 @@ Constraints:
 path consists of English letters, digits, period '.', slash '/' or '_'.
 path is a valid absolute Unix path.
 
+"""
+class Solution(object):
+    def simplifyPath(self, path):
 
-Difficulty level :
-Medium
-
-language:
-Python
-
-software:
-Vscode
-
-Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day58.py
-
-Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
-
-Ready to embrace the coding journey together! 🚀
-What's your coding challenge today? Share your goals in the comments below! 👇 Let's inspire each other! 🔥
-
-#CodingChallenge 
-#CodeOptimization 
-#DailyCoding
+        components = path.split("/")
+        stack = []
+        
+        for component in components:
+            if component == "..":
+                if stack:
+                    stack.pop()
+            elif component and component != ".":
+                stack.append(component)
+        
+        return "/" + "/".join(stack)
