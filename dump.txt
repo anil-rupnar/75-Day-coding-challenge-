@@ -3,44 +3,36 @@ Excited to tackle Day 57 of the 75-day coding challenge!
 
 #Day57
 
-Problem Satement : Maximum Subarray
+Problem Satement :  Most Frequent Even Element
 
-Given a string path, which is an absolute path (starting with a slash '/') to a file or directory in a Unix-style file system, convert it to the simplified canonical path.
-
-In a Unix-style file system, a period '.' refers to the current directory, a double period '..' refers to the directory up a level, and any multiple consecutive slashes (i.e. '//') are treated as a single slash '/'. For this problem, any other format of periods such as '...' are treated as file/directory names.
-
-The canonical path should have the following format:
-
-The path starts with a single slash '/'.
-Any two directories are separated by a single slash '/'.
-The path does not end with a trailing '/'.
-The path only contains the directories on the path from the root directory to the target file or directory (i.e., no period '.' or double period '..')
-Return the simplified canonical path.
+Given an integer array nums, return the most frequent even element.
+If there is a tie, return the smallest one. If there is no such element, return -1.
 
  
 
 Example 1:
 
-Input: path = "/home/"
-Output: "/home"
-Explanation: Note that there is no trailing slash after the last directory name.
+Input: nums = [0,1,2,2,4,4,1]
+Output: 2
+Explanation:
+The even elements are 0, 2, and 4. Of these, 2 and 4 appear the most.
+We return the smallest one, which is 2.
 Example 2:
 
-Input: path = "/../"
-Output: "/"
-Explanation: Going one level up from the root directory is a no-op, as the root level is the highest level you can go.
+Input: nums = [4,4,4,9,2,4]
+Output: 4
+Explanation: 4 is the even element appears the most.
 Example 3:
 
-Input: path = "/home//foo/"
-Output: "/home/foo"
-Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
+Input: nums = [29,47,21,41,13,37,25,7]
+Output: -1
+Explanation: There is no even element.
  
 
 Constraints:
 
-1 <= path.length <= 3000
-path consists of English letters, digits, period '.', slash '/' or '_'.
-path is a valid absolute Unix path.
+1 <= nums.length <= 2000
+0 <= nums[i] <= 105
 
 
 Difficulty level :
@@ -53,7 +45,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day58.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day59.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
