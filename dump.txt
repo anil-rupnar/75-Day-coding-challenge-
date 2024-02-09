@@ -1,71 +1,51 @@
 75 days Hard coding challenge🎯.
-Excited to tackle Day 60 of the 75-day coding challenge!
+Excited to tackle Day 62 of the 75-day coding challenge!
 
-#Day60
+#Day62
 
-Problem Satement :  String to Integer (atoi)
+Problem Statement : Integer to Roman
 
-Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
-The algorithm for myAtoi(string s) is as follows:
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
 
-Read in and ignore any leading whitespace.
-Check if the next character (if not already at the end of the string) is '-' or '+'. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
-Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.
-Convert these digits into an integer (i.e. "123" -> 123, "0032" -> 32). If no digits were read, then the integer is 0. Change the sign as necessary (from step 2).
-If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
-Return the integer as the final result.
-Note:
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
 
-Only the space character ' ' is considered a whitespace character.
-Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
+I can be placed before V (5) and X (10) to make 4 and 9. 
+X can be placed before L (50) and C (100) to make 40 and 90. 
+C can be placed before D (500) and M (1000) to make 400 and 900.
+Given an integer, convert it to a roman numeral.
+
  
 
 Example 1:
 
-Input: s = "42"
-Output: 42
-Explanation: The underlined characters are what is read in, the caret is the current reader position.
-Step 1: "42" (no characters read because there is no leading whitespace)
-         ^
-Step 2: "42" (no characters read because there is neither a '-' nor '+')
-         ^
-Step 3: "42" ("42" is read in)
-           ^
-The parsed integer is 42.
-Since 42 is in the range [-231, 231 - 1], the final result is 42.
+Input: num = 3
+Output: "III"
+Explanation: 3 is represented as 3 ones.
 Example 2:
 
-Input: s = "   -42"
-Output: -42
-Explanation:
-Step 1: "   -42" (leading whitespace is read and ignored)
-            ^
-Step 2: "   -42" ('-' is read, so the result should be negative)
-             ^
-Step 3: "   -42" ("42" is read in)
-               ^
-The parsed integer is -42.
-Since -42 is in the range [-231, 231 - 1], the final result is -42.
+Input: num = 58
+Output: "LVIII"
+Explanation: L = 50, V = 5, III = 3.
 Example 3:
 
-Input: s = "4193 with words"
-Output: 4193
-Explanation:
-Step 1: "4193 with words" (no characters read because there is no leading whitespace)
-         ^
-Step 2: "4193 with words" (no characters read because there is neither a '-' nor '+')
-         ^
-Step 3: "4193 with words" ("4193" is read in; reading stops because the next character is a non-digit)
-             ^
-The parsed integer is 4193.
-Since 4193 is in the range [-231, 231 - 1], the final result is 4193.
+Input: num = 1994
+Output: "MCMXCIV"
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  
 
 Constraints:
 
-0 <= s.length <= 200
-s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
+1 <= num <= 3999
 
 
 Difficulty level :
@@ -78,7 +58,7 @@ software:
 Vscode
 
 Code :
-https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day61.py
+https://github.com/anil-rupnar/75-Day-coding-challenge-/blob/main/Day62.py
 
 Keep coding, stay motivated, and remember: that every challenge is an opportunity to grow! 🌱💻
 
